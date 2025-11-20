@@ -20,7 +20,7 @@ const galleries = {
 
   ],
   food: [
-    "schienen.jpg",
+    "Schienen.jpg",
     "verkaufer.jpg",
     "religion.jpg",
     "fahrrad.jpg",
