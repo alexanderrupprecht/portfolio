@@ -379,3 +379,10 @@ window.addEventListener("click", () => {
     window.dispatchEvent(new Event("resize"));
   }, 120);
 }); 
+let scrollTimeout;
+window.addEventListener("scroll", () => {
+  clearTimeout(scrollTimeout);
+  scrollTimeoutTimeout = setTimeout(() => {
+    window.dispatchEvent(new Event("resize"));
+  }, 120);
+}); 
