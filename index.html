@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alexander Rupprecht — Photography</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-name" aria-hidden="true">ALEXANDER RUPPRECHT</div>
+        <div class="brand-sub">PHOTOGRAPH</div>
+      </div>
+
+      <nav class="nav-desktop" aria-label="Hauptnavigation">
+        <ul>
+        <!--  <li><a href="#home" data-target="home">START</a></li>-->
+          <li><a href="#portraits" data-target="portraits">AUSGEWÄHLTE WERKE I</a></li>
+          <li><a href="#food" data-target="food">AUSGEWÄHLTE WERKE II </a></li>
+          <li><a href="#events" data-target="events">PORTRÄTS</a></li> 
+          <li><a href="#contact" data-target="contact">KONTAKT</a></li> 
+        </ul>
+      </nav>
+
+      <button id="hamburger" aria-label="Menü" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <ul>
+ <!--  <li><a href="#home" data-target="home">START</a></li>-->
+           <li><a href="#portraits" data-target="portraits">AUSGEWÄHLTE WERKE I</a></li>
+        <li><a href="#food" data-target="food">AUSGEWÄHLTE WERKE II </a></li>
+        <li><a href="#events" data-target="events">PORTRÄTS</a></li>
+        <li><a href="#contact" data-target="contact">KONTAKT</a></li> 
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <!--
+    <section id="home" class="page-section">
+      <div class="section-head">
+        <h1 class="section-title">Start — Galerie</h1>
+        <p class="section-sub">Ausgewählte Arbeiten — ziehe oder wische, um zu navigieren</p>
+      </div>
+      <div class="gallery-wrapper">
+        <div class="image-track" data-gallery="home" aria-label="Galerie Start"></div>
+        <div class="gallery-overlay"></div>
+        <div class="gallery-hint">Ziehe / Wische — tippe ein Bild für Zoom</div>
+      </div>
+    </section>
+  --> 
+
+    <!-- PORTRAITS aber jetzt main-->
+    <section id="portraits" class="page-section">
+      <div class="section-head">
+        <h2 class="section-title">AUSGEWÄHLTE WERKE I</h2>
+      </div>
+      <div class="gallery-wrapper">
+        <div class="image-track" data-gallery="portraits" aria-label="Galerie Porträts"></div>
+        <div class="gallery-overlay"></div>
+      </div>
+    </section>
+
+    
+  <!-- ehemals food aber jetzt portrait-->
+
+    <section id="food" class="page-section">
+      <div class="section-head">
+        <h2 class="section-title">AUSGEWÄHLTE WERKE II</h2>
+      </div>
+      <div class="gallery-wrapper">
+        <div class="image-track" data-gallery="food" aria-label="Galerie Speisen"></div>
+        <div class="gallery-overlay"></div>
+      </div>
+    </section>
+
+    
+<!--events--> 
+    <section id="events" class="page-section">
+      <div class="section-head">
+        <h2 class="section-title">PORTRÄTS</h2>
+      </div>
+      <div class="gallery-wrapper">
+        <div class="image-track" data-gallery="events" aria-label="Galerie Events"></div>
+        <div class="gallery-overlay"></div>
+      </div>
+    </section>
+  
+
+    
+    
+   
+
+    <!-- KONTAKT -->
+    <section id="contact" class="page-section">
+      <div class="section-head">
+        <h2 class="section-title">Kontakt</h2>
+        <p class="section-sub">Für Anfragen, Shootings oder Kooperationen</p>
+      </div>
+
+      <!--
+      <div class="contact-layout">
+        <form id="contact-form" class="contact-form" novalidate>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Dein Name" required />
+          </label>
+          <label>
+            <span>E-Mail</span>
+            <input type="email" name="email" placeholder="du@beispiel.de" required />
+          </label>
+          <label>
+            <span>Nachricht</span>
+            <textarea name="message" rows="6" placeholder="Deine Nachricht..." required></textarea>
+          </label>
+          <div class="contact-actions">
+            <button type="submit" class="btn-submit">Nachricht senden</button>
+          
+          </div>
+        </form>
+        -->
+
+        <aside class="contact-info">
+          <div class="card-glass">
+            <h3>Alexander Rupprecht</h3>
+            <p class="muted">Freiberuflicher Photograph</p>
+            <p>E-Mail: <a href="mailto:rupprecht.photographie@gmail.com">rupprecht.photographie@gmail.com</a></p>
+            <p>Tel: +49 179 5930508</p>
+           <!-- <div class="socials">
+              <a href="#" rel="noopener" aria-label="Instagram">Instagram</a>
+              <a href="#" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+          --> 
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="muted">© <span id="year"></span> Alexander Rupprecht</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
