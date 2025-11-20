@@ -11,8 +11,8 @@ const galleries = {
 
   ],
   portraits: [
-    "mtfuji.jpg",
     "london2.jpg",
+    "mtfuji.jpg", 
     "heidelberg.jpg",
     "wien.jpg",
     "london1.jpg",
