@@ -1,7 +1,7 @@
 /* Configuration: filenames (without extension) */
 const GALLERIES = {
   selected1: ['london2','mtfuji','heidelberg','wien','london1','fenster'],
-  selected2: ['schienen','verkaufer','religion','fahrrad','italien','strasbourg'],
+  selected2: ['Schienen','verkaufer','religion','fahrrad','italien','strasbourg'],
   portraits:  ['lilly','hund','luca1','luca3']
 };
 
@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       g.style.transform = 'none'; 
     }, 120*i);
   });
+
 
   // gallery setup
   for (const section of document.querySelectorAll('.gallery')) {
@@ -45,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       img.addEventListener('pointermove', e => {
-        if (Math.abs(e.clientX - pointerDownX) > 4) {
+        if (Math.abs(e.clientX - pointerDownX) > 8) {
           img.dataset.dragging = '1';
         }
       });
