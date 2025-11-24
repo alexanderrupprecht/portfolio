@@ -125,7 +125,9 @@ body{
   -webkit-overflow-scrolling:touch;
   cursor:grab;
   scrollbar-width:none;
+  touch-action: pan-x;
 }
+
 .carousel::-webkit-scrollbar{ display:none; }
 
 /* ▼▼▼ FIX: Korrekter Preview-Scale & Hochkant-Darstellung ▼▼▼ */
