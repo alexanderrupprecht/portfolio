@@ -5,7 +5,7 @@ const GALLERIES = {
   portraits:  ['lilly','hund','luca1','luca3']
 };
 
-const IMAGE_PATH = './images/';
+const IMAGE_PATH = './';
 const IMAGE_EXT = '.jpg';
 
 document.addEventListener('DOMContentLoaded', () => {
