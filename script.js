@@ -1,7 +1,7 @@
 /* Configuration: filenames (without extension) */
 const GALLERIES = {
   selected1: ['london2','mtfuji','heidelberg','wien','london1','fenster'],
-  selected2: ['Schienen','verkaufer','religion','fahrrad','italien','strasbourg'],
+  selected2: ['Schienen', 'prayers','verkaufer','religion','fahrrad','italien','strasbourg'],
   portraits:  ['lilly','hund','luca1','luca3']
 };
 
