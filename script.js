@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       img.addEventListener('pointermove', e => {
-        if (Math.abs(e.clientX - pointerDownX) > 8) {
+        if (Math.abs(e.clientX - pointerDownX) > 6) {
           img.dataset.dragging = '1';
         }
       });
