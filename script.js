@@ -6,7 +6,7 @@ const GALLERIES = {
 };
 
 const IMAGE_PATH = './';
-const IMAGE_EXT = '.jpg';
+const IMAGE_EXT = '-min.jpg';
 
 document.addEventListener('DOMContentLoaded', () => {
 
